@@ -1,0 +1,74 @@
+.hero {
+  background: url('../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+
+  h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin-top: 15%;
+    text-shadow: 0 0 3px rgb(10, 10, 10);
+  }
+
+  h2 {
+    line-height: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    text-shadow: 0 0 3px rgb(10, 10, 10);
+  }
+
+  p {
+    margin-top: 18%;
+  }
+
+  a {
+    background: rgb(245, 245, 245);
+    color: rgb(83, 62, 26);
+    padding: 25px 80px;
+    text-decoration: none;
+    transition: background .9s, color .9s;
+
+    &:hover {
+      background: rgb(83, 62, 26);
+      color: white;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 600px;
+    background: url('../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg') no-repeat bottom left;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 25%;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 30px;
+    }
+
+    p {
+      margin-top: 35%;
+    }
+
+    a {
+      padding: 20px 60px;
+    }
+  }
+}
+
+

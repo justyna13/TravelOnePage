@@ -1,5 +1,67 @@
+html,
 body {
+  height: 100%; }
+
+body {
+  margin: 0;
   padding: 0;
-  margin: 0; }
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem; }
+
+.main-nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: white;
+  box-shadow: 0 0 5px #0a0a0a; }
+
+.hero {
+  background: url("../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  width: 100%; }
+  .hero h1,
+  .hero h2 {
+    margin: 0;
+    padding: 0; }
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin-top: 15%;
+    text-shadow: 0 0 3px #0a0a0a; }
+  .hero h2 {
+    line-height: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    text-shadow: 0 0 3px #0a0a0a; }
+  .hero p {
+    margin-top: 18%; }
+  .hero a {
+    background: whitesmoke;
+    color: #533e1a;
+    padding: 25px 80px;
+    text-decoration: none;
+    transition: background .9s, color .9s; }
+    .hero a:hover {
+      background: #533e1a;
+      color: white; }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 600px;
+    background: url("../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg") no-repeat bottom left; }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-top: 25%; }
+    .hero h2 {
+      font-size: 1.5rem;
+      line-height: 30px; }
+    .hero p {
+      margin-top: 35%; }
+    .hero a {
+      padding: 20px 60px; } }
 
 /*# sourceMappingURL=main.css.map */
