@@ -6,15 +6,77 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  color: #262626; }
 
+.section__title {
+  text-align: center;
+  font-size: 2.5rem; }
+
+.section__description {
+  text-align: center;
+  line-height: 1.5; }
+
+.section-center {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3% 0; }
+
+@media screen and (max-width: 768px) {
+  .section-center {
+    width: 95%; }
+
+  .section__title {
+    line-height: 45px;
+    margin: 5% 0; }
+
+  .section__description {
+    line-height: 25px; } }
 .main-nav {
   width: 100%;
   height: 60px;
   position: fixed;
   background: white;
-  box-shadow: 0 0 5px #0a0a0a; }
+  box-shadow: 0 0 5px #0a0a0a;
+  padding: 15px 0; }
+  .main-nav__list {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none; }
+    .main-nav__list li {
+      padding-left: 20px;
+      float: left;
+      text-align: center;
+      white-space: nowrap; }
+    .main-nav__list a {
+      text-decoration: none;
+      color: #262626;
+      font-size: .9rem; }
+      .main-nav__list a:hover {
+        text-decoration: underline; }
 
+.show-menu {
+  padding: 10px;
+  background: #533e1a;
+  text-align: center;
+  color: #fff;
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+    margin-top: -220px;
+    padding: 0; }
+    .main-nav__list {
+      width: 100%; }
+      .main-nav__list li {
+        width: 100%;
+        float: none;
+        padding: 10px 0; }
+
+  .show-menu {
+    display: block; } }
 .hero {
   background: url("../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg") no-repeat center;
   background-size: cover;
@@ -63,5 +125,90 @@ body {
       margin-top: 35%; }
     .hero a {
       padding: 20px 60px; } }
+.travels {
+  width: 100%;
+  padding-bottom: 5%;
+  background: #fff;
+  overflow: auto; }
+  .travels__option {
+    width: 18%;
+    height: 390px;
+    float: left;
+    margin-right: 2.3%;
+    padding: 2.5%;
+    background: #fff;
+    border: 1px solid gainsboro;
+    padding-bottom: 50px; }
+    .travels__option:last-child {
+      margin-right: 0; }
+    .travels__option__time {
+      margin-bottom: 6%;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold; }
+    .travels__option__list {
+      height: 260px;
+      margin: 10px 0;
+      padding: 0;
+      list-style: none;
+      font-size: .9rem; }
+    .travels__option__list li {
+      padding: 3px 0; }
+    .travels__option__price {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold; }
+    .travels__option__vip {
+      background-color: #533e1a;
+      border: 1px solid #533e1a;
+      color: #fff; }
+    .travels__option__vip:hover {
+      box-shadow: 0 0 7px #5d4824; }
+
+@media screen and (max-width: 1050px) {
+  .travels__option {
+    width: 43.3%;
+    height: auto;
+    margin-bottom: 2.3%; }
+    .travels__option:nth-of-type(2n) {
+      margin-right: 0; } }
+@media screen and (max-width: 768px) {
+  .travels__option {
+    width: 96%;
+    height: auto;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 5%;
+    text-align: center; }
+    .travels__option__list {
+      height: auto; } }
+.community {
+  width: 100%;
+  padding-bottom: 5%;
+  background: url("../../images/friends.jpg") no-repeat center;
+  background-size: cover;
+  overflow: auto; }
+  .community .section__title,
+  .community .section__description {
+    color: #fff;
+    text-shadow: 0 0 3px #0a0a0a; }
+  .community__details {
+    width: 31%;
+    float: left;
+    margin-right: 5%;
+    padding: 2%;
+    background: #fff; }
+    .community__details p {
+      margin-bottom: 10px; }
+    .community__details h2 {
+      margin-bottom: 15px;
+      font-weight: normal; }
+  .community__proud {
+    width: 56%;
+    float: left;
+    padding: 2%;
+    background: #fff; }
+    .community__proud h2 {
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

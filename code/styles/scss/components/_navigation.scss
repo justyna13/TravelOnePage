@@ -4,4 +4,59 @@
   position: fixed;
   background: rgb(256, 256, 256);
   box-shadow: 0 0 5px rgb(10, 10, 10);
+  padding: 15px 0;
+
+  &__list {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding-left: 20px;
+      float: left;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(38, 38, 38);
+      font-size: .9rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.show-menu {
+  padding: 10px;
+  background: rgb(83, 62, 26);
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+    margin-top: -220px;
+    padding: 0;
+
+    &__list {
+      width: 100%;
+
+      li {
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .show-menu {
+    display: block;
+  }
 }

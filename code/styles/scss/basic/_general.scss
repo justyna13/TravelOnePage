@@ -9,5 +9,39 @@ body {
   padding: 0;
   font-family: $ff-main;
   font-size: 1rem;
+  color: rgb(38, 38, 38);
 }
 
+
+.section__title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.section__description {
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+.section-center {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-center {
+    width: 95%;
+  }
+
+  .section__title {
+    line-height: 45px;
+    margin: 5% 0;
+  }
+
+  .section__description {
+    line-height: 25px;
+  }
+}

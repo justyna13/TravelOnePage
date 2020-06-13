@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aecc59f5-bf2e-40d6-a98d-24dd75467b98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/friends.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/layout/_community.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/layout/_travels.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/abstracts/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/abstracts/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/basic/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/basic/_general.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/components/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/layout/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -71,7 +72,10 @@
       <workItem from="1589191162196" duration="456000" />
       <workItem from="1590315501613" duration="35000" />
       <workItem from="1590318855446" duration="118000" />
-      <workItem from="1591894950084" duration="2779000" />
+      <workItem from="1591894950084" duration="2856000" />
+      <workItem from="1591975005842" duration="3970000" />
+      <workItem from="1591994115412" duration="122000" />
+      <workItem from="1592059945809" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="starter">
       <created>1591895005761</created>
@@ -87,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591895111836</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hero added">
+      <created>1591897752391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591897752391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,17 +107,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starter" />
     <MESSAGE value="added hero photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hero photo" />
+    <MESSAGE value="hero added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hero added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="384" width="579" height="277" key="#SCSS_Lint" timestamp="1589191596893">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="667" y="384" width="579" height="277" key="#SCSS_Lint/0.0.1920.1043/1920.0.1280.1024@0.0.1920.1043" timestamp="1589191596893" />
-    <state x="554" y="72" width="805" height="900" key="CommitChangelistDialog2" timestamp="1591895111712">
+    <state x="554" y="72" width="805" height="900" key="CommitChangelistDialog2" timestamp="1591897752237">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="554" y="72" width="805" height="900" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1591895111712" />
+    <state x="554" y="72" width="805" height="900" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1591897752237" />
     <state x="556" y="300" width="802" height="445" key="EditFileWatcherDialog" timestamp="1589191324477">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
