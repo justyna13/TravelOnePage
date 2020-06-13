@@ -26,6 +26,13 @@
       margin-bottom: 15px;
       font-weight: normal;
     }
+
+    &__image {
+      width: 17%;
+      float: left;
+      max-width: 398px;
+      margin-right: 15px;
+    }
   }
 
   &__proud {
@@ -33,10 +40,29 @@
     float: left;
     padding: 2%;
     background: #fff;
+    margin-bottom: 40px;
     
     h2 {
       text-align: center;
     }
   }
+}
 
+@media screen and (max-width: 768px) {
+  .community__details,
+  .community__proud {
+    width: 96%;
+    height: auto;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+
+  .community__details__image {
+    display: block;
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+  }
 }
