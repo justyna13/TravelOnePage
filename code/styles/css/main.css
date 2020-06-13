@@ -94,6 +94,7 @@ body {
     font-size: 3.5rem;
     font-weight: normal;
     margin-top: 15%;
+    line-height: 2;
     text-shadow: 0 0 3px #0a0a0a; }
   .hero h2 {
     line-height: 0;
@@ -118,7 +119,8 @@ body {
     background: url("../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg") no-repeat bottom left; }
     .hero h1 {
       font-size: 2.5rem;
-      margin-top: 25%; }
+      margin-top: 25%;
+      line-height: 1; }
     .hero h2 {
       font-size: 1.5rem;
       line-height: 30px; }
@@ -131,9 +133,12 @@ body {
   padding-bottom: 5%;
   background: #fff;
   overflow: auto; }
+  .travels__options {
+    display: flex;
+    justify-content: center; }
   .travels__option {
     width: 18%;
-    height: 390px;
+    height: min-content;
     float: left;
     margin-right: 2.3%;
     padding: 2.5%;
@@ -167,6 +172,9 @@ body {
       box-shadow: 0 0 7px #5d4824; }
 
 @media screen and (max-width: 1050px) {
+  .travels__options {
+    display: block; }
+
   .travels__option {
     width: 43.3%;
     height: auto;

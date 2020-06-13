@@ -4,9 +4,14 @@
   background: #fff;
   overflow: auto;
 
+  &__options {
+    display: flex;
+    justify-content: center;
+  }
+
   &__option {
     width: 18%;
-    height: 390px;
+    height: min-content;
     float: left;
     margin-right: 2.3%;
     padding: 2.5%;
@@ -60,6 +65,11 @@
 
 
 @media screen and (max-width: 1050px) {
+
+  .travels__options {
+    display: block;
+
+  }
   .travels__option {
     width: 43.3%;
     height: auto;
