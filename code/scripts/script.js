@@ -8,10 +8,6 @@ $(document).ready(function () {
             scrollTop: $('#home').offset().top
         }, 700);
 
-        if (hideMenu === false) {
-            $('.main-nav').animate({ top: -220}, 700);
-            hideMenu = true;
-        }
     });
 
     $('.main-nav__link-travels').on('click', function () {
@@ -19,10 +15,6 @@ $(document).ready(function () {
             scrollTop: $('#travels').offset().top - $('.main-nav').innerHeight()
         }, 700);
 
-        if (hideMenu === false) {
-            $('.main-nav').animate({ top: -220}, 700);
-            hideMenu = true;
-        }
     });
 
     $('.main-nav__link-community').on('click', function () {
@@ -30,10 +22,6 @@ $(document).ready(function () {
             scrollTop: $('#community').offset().top - $('.main-nav').innerHeight()
         }, 700);
 
-        if (hideMenu === false) {
-            $('.main-nav').animate({ top: -220}, 700);
-            hideMenu = true;
-        }
     });
 
     $('.main-nav__link-map').on('click', function () {
@@ -41,10 +29,6 @@ $(document).ready(function () {
             scrollTop: $('#map').offset().top - $('.main-nav').innerHeight()
         }, 700);
 
-        if (hideMenu === false) {
-            $('.main-nav').animate({ top: -220}, 700);
-            hideMenu = true;
-        }
     });
 
     $('.main-nav__link-contact').on('click', function () {
@@ -52,10 +36,6 @@ $(document).ready(function () {
             scrollTop: $('#contact').offset().top - $('.main-nav').innerHeight()
         }, 700);
 
-        if (hideMenu === false) {
-            $('.main-nav').animate({ top: -220}, 700);
-            hideMenu = true;
-        }
     });
 
 
