@@ -12,6 +12,7 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    background: #fff;
 
     li {
       padding-left: 20px;
@@ -59,5 +60,10 @@
 
   .show-menu {
     display: block;
+    padding: 15px;
+    background: rgb(83, 62, 26);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
   }
 }

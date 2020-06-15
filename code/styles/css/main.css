@@ -45,7 +45,8 @@ body {
     width: 550px;
     margin: 0 auto;
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    background: #fff; }
     .main-nav__list li {
       padding-left: 20px;
       float: left;
@@ -77,7 +78,12 @@ body {
         padding: 10px 0; }
 
   .show-menu {
-    display: block; } }
+    display: block;
+    padding: 15px;
+    background: #533e1a;
+    text-align: center;
+    color: #fff;
+    cursor: pointer; } }
 .hero {
   background: url("../../images/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.jpg") no-repeat center;
   background-size: cover;
@@ -97,7 +103,6 @@ body {
     line-height: 2;
     text-shadow: 0 0 3px #0a0a0a; }
   .hero h2 {
-    line-height: 0;
     font-size: 2rem;
     font-weight: normal;
     text-shadow: 0 0 3px #0a0a0a; }

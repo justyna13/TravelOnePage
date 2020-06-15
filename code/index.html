@@ -22,24 +22,24 @@
 
 <nav class="main-nav">
     <ul class="main-nav__list">
-        <li class="main-nav__elems"><a href="#hero">Home</a></li>
-        <li class="main-nav__elems"><a href="">Travels</a></li>
-        <li class="main-nav__elems"><a href="">Our community</a></li>
-        <li class="main-nav__elems"><a href="">Where are we</a></li>
-        <li class="main-nav__elems"><a href="">Contact</a></li>
+        <li class="main-nav__elems"><a href="#" class="main-nav__link-home">Home</a></li>
+        <li class="main-nav__elems"><a href="#" class="main-nav__link-travels">Travels</a></li>
+        <li class="main-nav__elems"><a href="#" class="main-nav__link-community">Our community</a></li>
+        <li class="main-nav__elems"><a href="#" class="main-nav__link-map">Where are we</a></li>
+        <li class="main-nav__elems"><a href="#" class="main-nav__link-contact">Contact</a></li>
     </ul>
 
     <p class="show-menu">Menu</p>
 </nav>
 
-<header class="hero">
+<header class="hero" id="hero">
     <h1>Welcome to our town</h1>
     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quos?</h2>
 
     <p><a href="#">Przejrzyj ofertę</a></p>
 </header>
 
-<section class="travels">
+<section class="travels" id="travels">
     <div class="section-center">
         <h2 class="section__title">Visit our best places!</h2>
         <p class="section__description">
@@ -104,7 +104,7 @@
     </div>
 </section>
 
-<section class="community">
+<section class="community" id="community">
     <div class="section-center">
         <h2 class="section__title">Our community</h2>
         <p class="section__description">
@@ -152,7 +152,7 @@
 <section id="map">
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
     <div class="section-center">
         <h2 class="section__title">Contact</h2>
         <p class="section__description">
@@ -200,8 +200,8 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -214,21 +214,22 @@
 
 <script>
     function initMap() {
-        let location = {lat: 50.041187, lng:21.999121};
+        let location = {lat: 50.041187, lng: 21.999121};
         let map = new google.maps.Map(document.getElementById('map'), {
             zoom: 8,
             center: location
         });
 
         let markerMsg = '<div class="marker-msg">' + '<h3>Town</h3>' +
-                        '<p>Street New 13</p>' + '<p>Call: 712 123 123</p>' + '</div>';
+            '<p>Street New 13</p>' + '<p>Call: 712 123 123</p>' + '</div>';
 
         let marker = new google.maps.InfoWindow({content: markerMsg});
         marker.setPosition(location);
         marker.open(map);
     }
-
 </script>
+
+<script src="scripts/script.js" type="text/javascript"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMKJXsqIw88fr-Gjmi4ONyxDKjUykYUaY&callback=initMap"
         type="text/javascript"></script>
 
